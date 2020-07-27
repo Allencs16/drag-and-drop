@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,700;0,900;1,600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="boards">
+        <div class="board">
+            <h3>To-do</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status red"></div>
+                    <div class="content">Teste!!</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>In progress</h3>
+            <div class="dropzone">
+                <div class="card yellow" draggable="true">
+                    <div class="status"></div>
+                    <div class="content">Estudar!!</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Done</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true">
+                    <div class="status green"></div>
+                    <div class="content">teste!!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
